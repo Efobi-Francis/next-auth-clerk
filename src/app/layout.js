@@ -29,8 +29,9 @@ export default function RootLayout({ children }) {
           <ClerkLoading>
             <Loader/>
           </ClerkLoading>
-          <Header/>
+          
           <ClerkLoaded>
+            <Header/>
             {children}
           </ClerkLoaded>
         </body>
