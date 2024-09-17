@@ -15,6 +15,8 @@ export const connect = async() => {
             dbName: 'next-auth-clerk',
             useNewUrlParser: true,
             useUnifiedTopology: true,
+
+            //<nb: both useNewUrlParser and useUnifiedTopology are now deprecated>
         });
         console.log('MongoDB connected')
         intialized = true
